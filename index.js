@@ -14,35 +14,37 @@ class ServerlessAssetsLocal {
 
     this.commands = {
       assets: {
-        start: {
-          usage: 'Start Assets local server.',
-          lifecycleEvents: ['startHandler'],
-          options: {
-            port: {
-              shortcut: 'p',
-              usage: 'The port number that Assets will use to communicate with your application. If you do not specify this option, the default port is 8080',
+        commands: {
+          start: {
+            usage: 'Start Assets local server.',
+            lifecycleEvents: ['startHandler'],
+            options: {
+              port: {
+                shortcut: 'p',
+                usage: 'The port number that Assets will use to communicate with your application. If you do not specify this option, the default port is 8080',
+              },
+              originPath: {
+                shortcut: 'o',
+                usage: ''
+              },
+              directory: {
+                shortcut: 'd',
+                usage: 'The directory where Assets directory.',
+              },
+              noStart: {
+                shortcut: 'n',
+                default: false,
+                usage: 'Do not start Assets local (in case it is already running)',
+              },
+              cors: {
+                shortcut: 'c',
+                usage: 'Enable CORS',
+              },
+             // host: {},
+             // key: {},
+             // cert: {},
+             // pfx: {},
             },
-            originPath: {
-              shortcut: 'o',
-              usage: ''
-            },
-            directory: {
-              shortcut: 'd',
-              usage: 'The directory where Assets directory.',
-            },
-            noStart: {
-              shortcut: 'n',
-              default: false,
-              usage: 'Do not start Assets local (in case it is already running)',
-            },
-            cors: {
-              shortcut: 'c',
-              usage: 'Enable CORS',
-            },
-           // host: {},
-           // key: {},
-           // cert: {},
-           // pfx: {},
           },
         },
       },
