@@ -1,8 +1,8 @@
 serverless-assets-local
 ===========================
 
-serverless-assets-local は、assets ファイルなどを別サーバーで起動するような構成をシュミレーションすることが出来ます。
-serverless-offline. と共に利用してください。
+serverless-assets-local は、assets ファイルなどを別サーバーで起動するような構成をシミュレーションすることが出来ます。
+serverless-offline と共に利用してください。
 
 view から参照する場合は、express-simple-cdn などでhostを置き換えられるようにするのがおすすめです。
 
