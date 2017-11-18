@@ -23,11 +23,11 @@ serverless.yaml
       - serverless-assets-local
       - serverless-offline
     custom:
-      serverless-assets-local:
+      assets:
         host: 127.0.0.1
         port: 8003
         directory: ./assets/
-        originPath: data
+        originPath: /data
         cors: false
         # Uncomment only if you already have a S3 server running locally
         # noStart: true
