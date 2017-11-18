@@ -1,0 +1,19 @@
+{
+  "name": "serverless-assets-local",
+  "version": "1.0.0",
+  "description": "serverless-assets-local is a Serverless plugin to run Server in local.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:unchi/serverless-assets-local.git"
+  },
+  "keywords": [
+    "serverless",
+    "plugin"
+  ],
+  "author": "unchi",
+  "license": "Apache-2.0"
+}
