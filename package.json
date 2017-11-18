@@ -1,6 +1,6 @@
 {
   "name": "serverless-assets-local",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "serverless-assets-local is a Serverless plugin to run Server in local.",
   "main": "index.js",
   "scripts": {
