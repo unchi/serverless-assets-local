@@ -55,7 +55,7 @@ class ServerlessAssetsLocal {
 
   startHandler() {
     return new Promise((resolve, reject) => {
-      const config = (this.serverless.service.custom && this.serverless.service.custom['serverless-assets-local']) || {};
+      const config = (this.serverless.service.custom && this.serverless.service.custom.assets) || {};
       const options = Object.assign({}, this.options, config);
 
       const hostname = options.host || "localhost";
