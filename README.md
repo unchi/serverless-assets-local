@@ -29,7 +29,7 @@ serverless.yaml
         directory: ./assets/
         originPath: /data
         cors: false
-        # Uncomment only if you already have a S3 server running locally
+        # Uncomment only if you already have a Assets server running locally
         # noStart: true
     functions:
       webhook:
